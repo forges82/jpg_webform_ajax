@@ -1,0 +1,9 @@
+<?php
+
+function jpg_webform_ajax_node_presave($node) {
+    if (!$node->nid) {
+        if($node->type == 'webform') {
+            $node->webform['webform_ajax'] = 1;
+        }
+    }
+}

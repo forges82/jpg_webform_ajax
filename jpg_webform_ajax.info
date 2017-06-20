@@ -1,0 +1,5 @@
+name = jpg_webform_ajax
+description = Enable webform ajax in new webforms by default and relocate browser position after a webform submit
+core = 7.x
+dependencies[] = webform_ajax:webform_ajax
+scripts[] = jpg_webform_ajax.js
